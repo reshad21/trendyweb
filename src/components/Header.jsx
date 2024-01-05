@@ -4,7 +4,7 @@ import NavLink from "./NavLink";
 
 const Header = () => {
     return (
-        <div className="sticky top-0 z-50 bg-[#4039D4]">
+        <div className="hidden md:block sticky top-0 z-50 bg-[#4039D4]">
             <div className="max-w-7xl mx-auto flex items-center justify-between p-6 lg:px-8">
                 <h1>Logo</h1>
                 <ul className="flex">

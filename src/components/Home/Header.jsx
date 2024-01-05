@@ -1,6 +1,6 @@
 import { navData } from "@/data/navber";
 import Link from "next/link";
-import NavLink from "./NavLink";
+import NavLink from "../NavLink";
 
 const Header = () => {
     return (

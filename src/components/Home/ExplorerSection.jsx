@@ -1,5 +1,6 @@
 import exploreImage from "@/assets/banner.webp";
 import Image from 'next/image';
+import Link from "next/link";
 
 const imageStyle = {
     // borderRadius: '50%',
@@ -11,10 +12,12 @@ const imageStyle = {
 const ExplorerSection = () => {
     return (
         <div className='max-w-7xl mx-auto p-6 lg:px-8'>
-            <div className="flex gap-2">
+            <div className="flex gap-2 items-center">
                 <Image alt='explore section bg' src={exploreImage} style={imageStyle} />
                 <div className="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis veniam aut, dicta nemo voluptatum fuga, error eveniet temporibus magni facilis soluta, quisquam architecto aspernatur. Sed consequatur, quia facilis quos reprehenderit cupiditate cum pariatur beatae eveniet sequi ex, excepturi neque, optio non accusantium tempora? Ex accusantium deleniti in fuga magnam dolorum, a quod eveniet minus! Itaque minus quidem nesciunt adipisci cupiditate alias nemo, unde similique voluptate dolorem porro voluptatibus vel quo ex quasi qui magni labore non autem rem nobis dicta? Molestiae perferendis accusamus laborum ipsum sed qui? Consequuntur tempore labore, minima rerum possimus temporibus fugit, consequatur nulla aspernatur obcaecati ullam!</p>
+                    <h1 className="font-bold text-3xl">We Are Digital <span className="text-orange-500">Explorers</span></h1>
+                    <p className="text-slate-500 my-10">Everyone has gone digital with this era and so has gone the ways of promoting your work, business, and lifestyle. Digital Marketing is the boon we are talking about. WebDev Private Limited provides such convenience to you. Now that you know about digital marketing do you have the time and energy to make attractive slogans, digital posters, and attention-seeking layouts?</p>
+                    <Link href="/" className="bg-gradient-to-r from-[#ee0979] from-10% via-[#ff6a00] via-70% to-[#ee0979] to-90% shadow-lg px-8 py-3 text-white rounded-xl font-semibold rounded-e-full rounded-tl-full hover:text-slate-800 hover:bg-white hover:border-orange-600">Read More</Link>
                 </div>
             </div>
         </div>

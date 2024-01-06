@@ -1,0 +1,21 @@
+
+{
+    "trends":[
+        {
+            "photo": "../trendyweb/src/assets/ContentMarketing.jpg",
+            "title":"Content Marketing.jpg",
+            "description":"Content marketing 70% of consumers would learn about products through content medium rather than traditional advertising. It is not easy to get people to spend money on something they have not heard of ever before."
+        },
+        {
+            "photo": "../trendyweb/src/assets/ContentMarketing.jpg",
+            "title":"Content Marketing.jpg",
+            "description":"Content marketing 70% of consumers would learn about products through content medium rather than traditional advertising. It is not easy to get people to spend money on something they have not heard of ever before."
+        },
+        {
+            "photo": "../trendyweb/src/assets/ContentMarketing.jpg",
+            "title":"Content Marketing.jpg",
+            "description":"Content marketing 70% of consumers would learn about products through content medium rather than traditional advertising. It is not easy to get people to spend money on something they have not heard of ever before."
+        }
+    
+    ]
+}

@@ -19,7 +19,7 @@ const Header = () => {
                     }
                 </ul>
                 <p>
-                    <Link href="/" class="bg-gradient-to-r from-[#ee0979] from-10% via-[#ff6a00] via-70% to-[#ee0979] to-90% shadow-lg px-8 py-3 text-white rounded-xl font-semibold">Contact Us</Link>
+                    <Link href="/" className="bg-gradient-to-r from-[#ee0979] from-10% via-[#ff6a00] via-70% to-[#ee0979] to-90% shadow-lg px-8 py-3 text-white rounded-xl font-semibold">Contact Us</Link>
                 </p>
             </div>
         </div>

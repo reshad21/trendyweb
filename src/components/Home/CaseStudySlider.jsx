@@ -5,7 +5,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import 'swiper/css/effect-fade';
-import { Navigation, Pagination } from 'swiper/modules';
 // all slider image
 import digitalmarketing from "@/assets/digitalmarketing.webp";
 import ppcservices from "@/assets/ppcservices.webp";
@@ -23,6 +22,7 @@ const imageStyle = {
 };
 
 const sliderStyle = {
+    padding: "40px 0px"
     // boxShadow: "0px 16px 20px 0px #00000030",
     // border-2 border-slate-300 rounded-lgRadius: "2%"
 }
@@ -31,7 +31,6 @@ const CaseStudySlider = () => {
     return (
         <div className="w-[50%]">
             <Swiper className="caseStudySwiper"
-                effect={'fade'}
                 slidesPerView={2}
                 grabCursor={true}
                 centeredSlides={true}
@@ -50,10 +49,9 @@ const CaseStudySlider = () => {
                     },
                     1000: {
                         slidesPerView: 2,
-                        spaceBetween: 20,
+                        spaceBetween: 30,
                     },
                 }}
-                modules={[Pagination, Navigation]}
                 style={sliderStyle}
             >
                 <SwiperSlide>

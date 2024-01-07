@@ -3,6 +3,7 @@ import DoforYouSection from "@/components/Home/DoforYouSection";
 import ExplorerSection from "@/components/Home/ExplorerSection";
 import Hero from "@/components/Home/Hero";
 import HighlightSection from "@/components/Home/HighlightSection";
+import RabbitTurtleSection from "@/components/Home/RabbitTurtleSection";
 import SeoServiceSection from "@/components/Home/SeoServiceSection";
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <DoforYouSection/>
       <SeoServiceSection/>
       <HighlightSection/>
+      <RabbitTurtleSection/>
     </main>
   )
 }

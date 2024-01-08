@@ -6,6 +6,7 @@ import Hero from "@/components/Home/Hero";
 import HighlightSection from "@/components/Home/HighlightSection";
 import RabbitTurtleSection from "@/components/Home/RabbitTurtleSection";
 import SeoServiceSection from "@/components/Home/SeoServiceSection";
+import TestimonialSection from "@/components/Home/TestimonialSection";
 export default function Home() {
   return (
     <main>
@@ -17,6 +18,7 @@ export default function Home() {
       <HighlightSection/>
       <RabbitTurtleSection/>
       <CaseStudySection/>
+      <TestimonialSection/>
     </main>
   )
 }

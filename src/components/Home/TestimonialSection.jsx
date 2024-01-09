@@ -1,5 +1,5 @@
 import { TiMessages } from "react-icons/ti";
-import ServicesSlider from "./ServicesSlider";
+import TestimonialSlider from "./TestimonialSlider";
 const TestimonialSection = () => {
     return (
         <div className='bg-pink-50 py-32'>
@@ -15,7 +15,7 @@ const TestimonialSection = () => {
                             <p className='text-slate-500'>Discover what our clients are saying about our digital marketing solutions. Read testimonials from satisfied customers and learn how WebDev has helped businesses like yours achieve their marketing goals.</p>
                         </div>
                     </div>
-                    <ServicesSlider />
+                    <TestimonialSlider />
                 </div>
             </div>
         </div>

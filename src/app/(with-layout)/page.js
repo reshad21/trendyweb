@@ -1,5 +1,6 @@
 import BrandSection from "@/components/Home/BrandSection";
 import CaseStudySection from "@/components/Home/CaseStudySection";
+import ContactUsSection from "@/components/Home/ContactUsSection";
 import DoforYouSection from "@/components/Home/DoforYouSection";
 import ExplorerSection from "@/components/Home/ExplorerSection";
 import Hero from "@/components/Home/Hero";
@@ -19,6 +20,7 @@ export default function Home() {
       <RabbitTurtleSection/>
       <CaseStudySection/>
       <TestimonialSection/>
+      <ContactUsSection/>
     </main>
   )
 }

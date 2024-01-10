@@ -2,10 +2,10 @@ import Link from "next/link";
 import { IoIosArrowRoundForward } from "react-icons/io";
 const HighlightSection = () => {
     return (
-        <div className='py-32'>
-            <div className="max-w-7xl mx-auto p-6 lg:px-8">
-                <div className="bg-indigo-700 text-white flex flex-col items-center justify-center gap-10 rounded-3xl px-20 py-28">
-                    <h1 className="text-center text-5xl font-bold">Digital Marketing SMO & SEO Solution!</h1>
+        <div className='py-8 md:py-32'>
+            <div className="max-w-7xl mx-auto p-6 md:px-8">
+                <div className="bg-indigo-700 text-white flex flex-col items-center justify-center gap-10 rounded-3xl px-4 py-14 md:px-20 md:py-28">
+                    <h1 className="text-center text-3xl md:text-5xl font-bold">Digital Marketing SMO & SEO Solution!</h1>
                     <p className="text-center text-lg">Our digital marketing solutions encompass both SMO (Social Media Optimisation) and SEO (Search Engine Optimisation) strategies, designed to maximise online visibility and engagement for businesses.</p>
 
                     <div className="flex  gap-5 items-center">

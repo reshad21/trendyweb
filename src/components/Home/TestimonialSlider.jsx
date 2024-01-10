@@ -23,7 +23,7 @@ const sliderStyle = {
 }
 const TestimonialSlider = () => {
     return (
-        <div className="w-[50%]">
+        <div className="w-full md:w-[50%]">
             <Swiper className="testimonialSwiper"
                 autoplay={{
                     delay: 2500,

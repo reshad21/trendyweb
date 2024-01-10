@@ -29,7 +29,7 @@ const sliderStyle = {
 
 const CaseStudySlider = () => {
     return (
-        <div className="w-[50%]">
+        <div className="w-full md:w-[50%]">
             <Swiper className="caseStudySwiper"
                 slidesPerView={2}
                 grabCursor={true}

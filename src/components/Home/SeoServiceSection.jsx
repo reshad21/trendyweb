@@ -5,11 +5,11 @@ const SeoServiceSection = () => {
     return (
         <div className='bg-slate-50 py-32'>
             <div className="max-w-7xl mx-auto p-6 lg:px-8 ">
-                <div className="flex flex-col text-center gap-5 mb-10">
+                <div className="flex flex-col text-center gap-5 mb-2 md:mb-10">
                     <h2 className="text-3xl font-bold">We Make Your <span className="text-orange-500">Seo Service</span> Faster</h2>
-                    <p className="text-slate-500 px-[280px]">For more expert opinions about better investments and cute promotional aspects, contact WebSpider Private Limited. Because,</p>
+                    <p className="text-slate-500 px-2 md:px-[280px]">For more expert opinions about better investments and cute promotional aspects, contact WebSpider Private Limited. Because,</p>
                 </div>
-                <div className="grid grid-cols-2 gap-10 p-20">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-10 p-2 md:p-20">
                     <div className="relative pl-20">
                         <div className="absolute top-0 left-0 w-14 h-14 bg-white rounded-full shadow-xl flex items-center justify-center">
                             <span><FaCode size={22} className="text-blue-800" /></span>

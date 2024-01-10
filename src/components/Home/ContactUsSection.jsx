@@ -1,13 +1,14 @@
 import contactUsImage from "@/assets/Contact-get-tuch.webp";
 import Image from "next/image";
 import { FaPhoneSquareAlt, FaRegEnvelope } from "react-icons/fa";
+import ContactUsForm from "./ContactUsForm";
 const ContactUsSection = () => {
     return (
         <div className='py-32'>
             <div className="max-w-7xl mx-auto p-6 lg:px-8">
                 <div className="flex md:flex-row flex-col">
-                    <Image src={contactUsImage} width={676} height={465} />
-                    <div className="">
+                    <Image src={contactUsImage} className="w-full md:w-[676] h-auto object-fill" />
+                    <div className="mt-10 md:mt-0">
                         <h1 className="text-3xl font-bold mb-4">Get In <span className="text-orange-400">Touch</span></h1>
                         <div className="flex items-center gap-3 mb-4">
                             <div className="flex items-center gap-1">
@@ -19,54 +20,7 @@ const ContactUsSection = () => {
                                 <span className="text-[13px] text-slate-500">info@WebSpider.com</span>
                             </div>
                         </div>
-                        <form action="">
-                            <div className="flex gap-3 mb-2">
-                                <label className="form-control w-full">
-                                    <div className="label">
-                                        <span className="label-text text-[11px] md:text-[14]">Full Name</span>
-                                    </div>
-                                    <input type="text" placeholder="" className="input input-bordered w-full" />
-                                </label>
-                                <label className="form-control w-full">
-                                    <div className="label">
-                                        <span className="label-text text-[11px] md:text-[14]">Email Address</span>
-                                    </div>
-                                    <input type="text" placeholder="" className="input input-bordered w-full" />
-                                </label>
-                            </div>
-                            <div className="flex gap-3 mb-2">
-                                <label className="form-control w-full">
-                                    <div className="label">
-                                        <span className="label-text text-[11px] md:text-[14]">Number</span>
-                                    </div>
-                                    <input type="text" placeholder="" className="input input-bordered w-full" />
-                                </label>
-                                <label className="form-control w-full">
-                                    <div className="label">
-                                        <span className="label-text text-[11px] md:text-[14]">What are your requirements?</span>
-                                    </div>
-                                    <select className="select select-bordered w-full">
-                                        <option disabled selected value="DEFAULT">Select</option>
-                                        <option value="website">Website</option>
-                                        <option value="seo">SEO</option>
-                                        <option value="smm">SMM</option>
-                                        <option value="paidcampaign">Paid Campaign</option>
-                                        <option value="other">Other</option>
-                                    </select>
-                                </label>
-                            </div>
-                            <div className="flex gap-3 mb-6">
-                                <label className="form-control w-full">
-                                    <div className="label">
-                                        <span className="label-text text-[11px] md:text-[14]">Message</span>
-                                    </div>
-                                    <textarea className="textarea textarea-bordered" placeholder=""></textarea>
-                                </label>
-                            </div>
-                            <div className="">
-                                <button className="bg-indigo-700 text-white text-sm py-3 px-4 rounded-md">Send Message</button>
-                            </div>
-                        </form>
+                        <ContactUsForm />
                     </div>
                 </div>
             </div>

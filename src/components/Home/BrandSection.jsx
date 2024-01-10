@@ -7,7 +7,7 @@ const BrandSection = ({ content = null }) => {
 
     return (
         <div className="max-w-7xl mx-auto p-6 lg:px-8">
-            <p className="text-center font-bold text-3xl px-60 mb-20">We Help You Increase Sales By Improving SEO / PPC / SMO Of <span className="text-orange-500">Your Brand</span>{content}</p>
+            <p className="text-center font-bold text-2xl md:text-3xl px-2 md:px-60 mb-20">We Help You Increase Sales By Improving SEO / PPC / SMO Of <span className="text-orange-500">Your Brand</span>{content}</p>
             <div className="md:flex gap-10">
                 <div className="flex flex-col gap-4 items-center shadow-2xl px-10 py-14">
                     <div className="w-[90px] h-[90px] flex justify-center items-center bg-red-400 border-2 p-5 rounded-md border-red-400 shadow-2xl">

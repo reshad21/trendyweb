@@ -4,8 +4,8 @@ const TestimonialSection = () => {
     return (
         <div className='bg-pink-50 py-32'>
             <div className="max-w-7xl mx-auto p-6 lg:px-8">
-                <div className="flex md:flex-row flex-col gap-10 items-center justify-between">
-                    <div className="relative w-[50%]">
+                <div className="flex md:flex-row flex-col gap-3 md:gap-10 items-center justify-between">
+                    <div className="relative w-full md:w-[50%]">
                         <div className="text-end flex justify-end">
                             <span className="text-orange-200 text-end"><TiMessages size={260} /></span>
                         </div>

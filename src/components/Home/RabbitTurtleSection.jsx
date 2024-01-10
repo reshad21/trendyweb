@@ -3,15 +3,15 @@ import Image from "next/image";
 
 const imageStyle = {
     // borderRadius: '50%',
-    width: "50%",
-    height: "auto"
+    // width: "50%",
+    // height: "auto"
 }
 const RabbitTurtleSection = () => {
     return (
         <div className="py-32 bg-slate-50">
             <div className="max-w-7xl mx-auto p-6 lg:px-8">
                 <div className="flex flex-col md:flex-row justify-around items-center gap-10">
-                    <Image src={bannerMan} style={imageStyle} />
+                    <Image src={bannerMan} style={imageStyle} className="w-full md:w-1/2 object-fill h-auto" />
                     <div className="">
                         <h1 className="font-bold text-3xl">Do You Remember The Story Of <span className="text-orange-500">The Rabbit And Turtle?</span></h1>
                         <p className="text-slate-500 my-10">Kids believe that the turtle was hardworking, but the truth is that if the rabbit had not  been distracted, the turtle would have lost the race. You alone, looking after investment and creativity along with your business, will make you the distracted rabbit. WebDev Private Limited comes into the story now, follows the rabbit through the race, and then reminds him of his self-worth and power. The rabbit stays the fastest and smartest in the jungle!</p>

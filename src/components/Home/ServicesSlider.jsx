@@ -29,7 +29,7 @@ const sliderStyle = {
 
 const ServicesSlider = () => {
     return (
-        <div className="w-[50%]">
+        <div className="w-full md:w-[50%]">
             <Swiper className="mySwiper"
                 autoplay={{
                     delay: 2500,

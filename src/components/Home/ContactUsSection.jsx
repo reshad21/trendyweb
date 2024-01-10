@@ -46,12 +46,12 @@ const ContactUsSection = () => {
                                         <span className="label-text text-[11px] md:text-[14]">What are your requirements?</span>
                                     </div>
                                     <select className="select select-bordered w-full">
-                                        <option disabled selected>Select</option>
-                                        <option>Website</option>
-                                        <option>SEO</option>
-                                        <option>SMM</option>
-                                        <option>Paid Campaign</option>
-                                        <option>Other</option>
+                                        <option disabled selected value="DEFAULT">Select</option>
+                                        <option value="website">Website</option>
+                                        <option value="seo">SEO</option>
+                                        <option value="smm">SMM</option>
+                                        <option value="paidcampaign">Paid Campaign</option>
+                                        <option value="other">Other</option>
                                     </select>
                                 </label>
                             </div>

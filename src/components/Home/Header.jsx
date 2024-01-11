@@ -1,13 +1,16 @@
+import websiteLogo from "@/assets/mainlogo-removebg-preview.png";
 import { navData } from "@/data/navber";
+import Image from "next/image";
 import Link from "next/link";
 import NavLink from "../NavLink";
-
 const Header = () => {
     return (
-        <div className="hidden md:block sticky top-0 z-50 bg-[#4039D4]">
-            <div className="max-w-7xl mx-auto flex items-center justify-between p-6 lg:px-8">
-                <h1>Logo</h1>
-                <ul className="flex">
+        <div className="md:block sticky top-0 z-50 bg-[#4039D4]">
+            <div className="max-w-7xl mx-auto flex items-center justify-between py-2 px-3 md:py-4 md:px-8">
+                <Link href="/">
+                    <Image src={websiteLogo} className="w-[100px] h-auto object-fill" />
+                </Link>
+                <ul className="hidden md:flex">
                     {
                         navData.map(({ path, title }) => (
                             <li key={path} className="text-white">
@@ -19,7 +22,7 @@ const Header = () => {
                     }
                 </ul>
                 <p>
-                    <Link href="/" className="bg-gradient-to-r from-[#ee0979] from-10% via-[#ff6a00] via-70% to-[#ee0979] to-90% shadow-lg px-8 py-3 text-white rounded-xl font-semibold">Contact Us</Link>
+                    <Link href="/" className="bg-gradient-to-r from-[#ee0979] from-10% via-[#ff6a00] via-70% to-[#ee0979] to-90% shadow-lg px-8 py-3 text-white rounded-xl font-semibold text-[13px] md:text-[16px]">Contact Us</Link>
                 </p>
             </div>
         </div>

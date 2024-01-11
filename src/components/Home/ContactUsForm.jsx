@@ -29,7 +29,7 @@ const ContactUsForm = () => {
                             <span className="label-text text-[11px] md:text-[14]">What are your requirements?</span>
                         </div>
                         <select className="select select-bordered w-full">
-                            <option disabled value="DEFAULT">Select</option>
+                            <option value="DEFAULT">Select</option>
                             <option value="website">Website</option>
                             <option value="seo">SEO</option>
                             <option value="smm">SMM</option>

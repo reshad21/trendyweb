@@ -11,7 +11,7 @@ const Hero = () => {
             width: '100%',
             height: '100%',
         }}>
-            <div className="md:flex justify-between items-center z-2 relative mx-auto max-w-7xl p-6 lg:px-8">
+            <div className="md:flex justify-between items-center z-2 relative mx-auto max-w-7xl p-6 lg:px-8 mt-[-2px]">
                 <div className="">
                     <h1 className="text-4xl lg:text-6xl font-extrabold mb-4 capitalize text-white">You Speak And We Help You Execute It In Your Own Way!! Welcome To WebSpider!</h1>
                     <p className="text-base mb-4 text-white">WebSpider have experts who are experienced and knows how and what specification of a company or a product are to be showcased.</p>

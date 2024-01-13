@@ -24,7 +24,7 @@ const Header = () => {
                     <li><ServiceButton /></li>
                 </ul>
                 <p>
-                    <Link href="/contact" className="bg-gradient-to-r from-[#ee0979] from-10% via-[#ff6a00] via-70% to-[#ee0979] to-90% shadow-lg px-8 py-3 text-white rounded-xl font-semibold text-[13px] md:text-[16px]">Contact Us</Link>
+                    <Link href="/contact" className="bg-gradient-to-r from-[#ee0979] from-10% via-[#ff6a00] via-70% to-[#ff6a00] to-90% shadow-lg px-8 py-3 text-white rounded-xl font-semibold text-[13px] md:text-[16px] hover:bg-gradient-to-r hover:from-[#fff] hover:from-10% hover:via-[#fff] hover:via-70% hover:to-[#fff] hover:text-slate-800">Contact Us</Link>
                 </p>
             </div>
         </div>

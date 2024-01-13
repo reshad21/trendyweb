@@ -10,7 +10,7 @@ const ServiceButton = () => {
             <ul className="menu menu-horizontal text-white p-0 m-[-7px]">
                 <li>
                     <details >
-                        <summary>Parent item</summary>
+                        <summary>Services</summary>
                         <ul className="text-slate-700 w-[650px] h-fit bg-white rounded-xl grid gap-3 grid-cols-2 justify-between">
                             <li>
                                 <div className="flex items-center gap-5">

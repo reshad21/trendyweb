@@ -9,7 +9,7 @@ const HighlightSection = () => {
                     <p className="text-center text-lg">Our digital marketing solutions encompass both SMO (Social Media Optimisation) and SEO (Search Engine Optimisation) strategies, designed to maximise online visibility and engagement for businesses.</p>
 
                     <div className="flex  gap-5 items-center">
-                        <Link href="/" className="bg-gradient-to-r from-[#ee0979] from-10% via-[#ff6a00] via-70% to-[#ff6a00] to-90% shadow-lg px-8 py-3 text-white rounded-xl rounded-e-full rounded-tl-full text-sm font-semibold hover:bg-gradient-to-r hover:from-[#fff] hover:from-10% hover:via-[#fff] hover:via-70% hover:to-[#fff] hover:text-slate-800">Connect with us</Link>
+                        <Link href="/contact" className="bg-gradient-to-r from-[#ee0979] from-10% via-[#ff6a00] via-70% to-[#ff6a00] to-90% shadow-lg px-8 py-3 text-white rounded-xl rounded-e-full rounded-tl-full text-sm font-semibold hover:bg-gradient-to-r hover:from-[#fff] hover:from-10% hover:via-[#fff] hover:via-70% hover:to-[#fff] hover:text-slate-800">Connect with us</Link>
                         <Link href="/">
                             <div className="flex gap-1 justify-center items-center text-sm font-bold">
                                 <span>Know more</span>

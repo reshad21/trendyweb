@@ -14,9 +14,5 @@ export const navData = [
     {
         title:"About",
         path:"/about"
-    },
-    {
-        title:"Marketplace",
-        path:"/marketplace"
-    },
+    }
 ]

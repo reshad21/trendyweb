@@ -3,6 +3,7 @@ import { navData } from "@/data/navber";
 import Image from "next/image";
 import Link from "next/link";
 import NavLink from "../NavLink";
+import ServiceButton from "../Special/ServiceButton";
 const Header = () => {
     return (
         <div className="md:block sticky top-0 z-50 bg-[#4039D4]">
@@ -20,6 +21,7 @@ const Header = () => {
                             </li>
                         ))
                     }
+                    <li><ServiceButton /></li>
                 </ul>
                 <p>
                     <Link href="/contact" className="bg-gradient-to-r from-[#ee0979] from-10% via-[#ff6a00] via-70% to-[#ee0979] to-90% shadow-lg px-8 py-3 text-white rounded-xl font-semibold text-[13px] md:text-[16px]">Contact Us</Link>

@@ -77,7 +77,7 @@ const ResponsiveMenu = () => {
                             <div className="flex items-center gap-2">
                                 <span className="bg-slate-200 p-2 rounded-xl"><AiOutlineDollar size={10} /></span>
                                 <div className="w-full">
-                                    <Link href="/" className="mb-4 font-semibold text-[12px]">PPC Service</Link>
+                                    <Link href="/PpcServicePage" className="mb-4 font-semibold text-[12px]">PPC Service</Link>
                                 </div>
                             </div>
                         </li>

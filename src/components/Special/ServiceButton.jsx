@@ -67,13 +67,13 @@ const ServiceButton = () => {
                                 </div>
                             </li>
                             <li>
-                                <div className="flex items-center gap-5">
+                                <Link href="/ppcservice" className="flex items-center gap-5">
                                     <span className="bg-slate-200 p-2 rounded-xl"><AiOutlineDollar size={30} /></span>
                                     <div className="w-full">
-                                        <Link href="/" className="mb-4 font-bold text-[15px]">PPC Service</Link>
+                                        <span className="mb-4 font-bold text-[15px]">PPC Service</span>
                                         <p className="text-[12px]">Effective Advertising Through Pay-Per-Click</p>
                                     </div>
-                                </div>
+                                </Link>
                             </li>
                         </ul>
                     </details>

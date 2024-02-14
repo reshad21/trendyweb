@@ -1,8 +1,9 @@
+import AboutUsIntro from "@/components/about/AboutUsIntro";
 
 const AboutPage = () => {
     return (
         <div>
-            about page
+            <AboutUsIntro/>
         </div>
     );
 };

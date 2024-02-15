@@ -11,7 +11,7 @@ const ServiceButton = () => {
                 <li>
                     <details >
                         <summary>Services</summary>
-                        <ul className="text-slate-700 w-[650px] h-fit bg-white rounded-xl grid gap-3 grid-cols-2 justify-between">
+                        <ul className="text-slate-700 w-[580px] h-fit bg-white rounded-xl grid gap-3 grid-cols-2 justify-between">
                             <li>
                                 <div className="flex items-center gap-5">
                                     <span className="bg-slate-200 p-2 rounded-xl"><AiOutlineSound size={30} /></span>

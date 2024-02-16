@@ -1,10 +1,14 @@
+'use client'
 import contactUsImage from "@/assets/Contact-get-tuch.webp";
 import Image from "next/image";
+import { usePathname } from 'next/navigation';
 import { FaPhoneSquareAlt, FaRegEnvelope } from "react-icons/fa";
 import ContactUsForm from "./ContactUsForm";
-const ContactUsSection = () => {
+const ContactUsSection = ({ spaceDecrease }) => {
+    const pathname = usePathname()
+    console.log(spaceDecrease, pathname);
     return (
-        <div className='py-32'>
+        <div className={pathname === '/about' ? spaceDecrease : 'py-32'}>
             <div className="max-w-7xl mx-auto p-6 lg:px-8">
                 <div className="flex md:flex-row flex-col">
                     <Image src={contactUsImage} className="w-full md:w-[676px] h-auto object-fill" />

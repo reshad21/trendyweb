@@ -22,13 +22,13 @@ const ServiceButton = () => {
                                 </div>
                             </li>
                             <li>
-                                <div className="flex items-center gap-5">
+                                <Link href="/webdevelopment" className="flex items-center gap-5">
                                     <span className="bg-slate-200 p-2 rounded-xl"><IoCodeSlashSharp size={30} /></span>
                                     <div className="w-full">
-                                        <Link href="/" className="mb-4 font-bold text-[15px]">Web Development</Link>
+                                        <span className="mb-4 font-bold text-[15px]">Web Development</span>
                                         <p className="text-[12px]">Creating dynamic websites with coding expertise.</p>
                                     </div>
-                                </div>
+                                </Link>
                             </li>
                             <li>
                                 <div className="flex items-center gap-5">

@@ -1,3 +1,5 @@
+import ContactUsSection from "@/components/Home/ContactUsSection";
+import TestimonialSection from "@/components/Home/TestimonialSection";
 import WebDevFeature from "@/components/WebDevelopment/WebDevFeature";
 import WebDevIntro from "@/components/WebDevelopment/WebDevIntro";
 import WebDevLead from "@/components/WebDevelopment/WebDevLead";
@@ -10,6 +12,8 @@ const WebDevelopmentPage = () => {
             <WebDevFeature/>
             <WebDevLead/>
             <WebDevTimeLine/>
+            <TestimonialSection/>
+            <ContactUsSection/>
         </>
     );
 };

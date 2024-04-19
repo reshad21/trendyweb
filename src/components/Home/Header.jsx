@@ -1,4 +1,4 @@
-import websiteLogo from "@/assets/mainlogo-removebg-preview.png";
+import websiteLogo from "@/assets/demologo.png";
 import { navData } from "@/data/navber";
 import Image from "next/image";
 import Link from "next/link";
@@ -7,9 +7,9 @@ import ServiceButton from "../Special/ServiceButton";
 const Header = () => {
     return (
         <div className="md:block sticky top-0 z-50 bg-[#4039D4]">
-            <div className="max-w-7xl mx-auto flex items-center justify-between py-2 px-3 md:py-4 md:px-8">
+            <div className="max-w-7xl mx-auto flex items-center justify-between px-3 md:px-8">
                 <Link href="/">
-                    <Image src={websiteLogo} className="w-[100px] h-auto object-fill" />
+                    <Image src={websiteLogo} className="w-[75px] h-[75px]" alt="logo" />
                 </Link>
                 <ul className="hidden md:flex">
                     {

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { AiOutlineDollar, AiOutlineSound } from "react-icons/ai";
+import { AiOutlineSound } from "react-icons/ai";
 import { BsBarChart } from "react-icons/bs";
 import { FaComputer } from "react-icons/fa6";
 import { HiOutlineComputerDesktop } from "react-icons/hi2";
@@ -13,13 +13,13 @@ const ServiceButton = () => {
                         <summary>Services</summary>
                         <ul className="text-slate-700 w-[580px] h-fit bg-white rounded-xl grid gap-3 grid-cols-2 justify-between">
                             <li>
-                                <div className="flex items-center gap-5">
+                                <Link href="/digitalmarketing" className="flex items-center gap-5">
                                     <span className="bg-slate-200 p-2 rounded-xl"><AiOutlineSound size={30} /></span>
                                     <div className="w-full">
-                                        <Link href="/" className="mb-4 font-bold text-[15px]">Digital Marketing</Link>
+                                        <span className="mb-4 font-bold text-[15px]">Digital Marketing</span>
                                         <p className="text-[12px]">Maximizing online presence through strategic promotion.</p>
                                     </div>
-                                </div>
+                                </Link>
                             </li>
                             <li>
                                 <Link href="/webdevelopment" className="flex items-center gap-5">
@@ -65,15 +65,6 @@ const ServiceButton = () => {
                                         <p className="text-[12px]">Maximizing website performance for optimal results.</p>
                                     </div>
                                 </div>
-                            </li>
-                            <li>
-                                <Link href="/ppcservice" className="flex items-center gap-5">
-                                    <span className="bg-slate-200 p-2 rounded-xl"><AiOutlineDollar size={30} /></span>
-                                    <div className="w-full">
-                                        <span className="mb-4 font-bold text-[15px]">PPC Service</span>
-                                        <p className="text-[12px]">Effective Advertising Through Pay-Per-Click</p>
-                                    </div>
-                                </Link>
                             </li>
                         </ul>
                     </details>
